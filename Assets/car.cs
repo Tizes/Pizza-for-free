@@ -19,7 +19,7 @@ public class car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 velocity = agent.velocity;
+        Vector3 velocity = agent.velocity;
         agent.SetDestination(target.position);
         float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle+87, Vector3.forward);
