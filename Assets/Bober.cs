@@ -8,6 +8,8 @@ public class Bober : MonoBehaviour
 {
     NavMeshAgent agent;
     public GameObject treeObj;
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class Bober : MonoBehaviour
         if (other.gameObject.tag == "Tree")
         {
             Destroy(other.gameObject);
-            // Destroy the obje
+            agent.speed += 0.1f;  
         }
     }
     // Update is called once per frame

@@ -15,11 +15,11 @@ public class CardPicker : MonoBehaviour
     // Update is called once per frame
     async void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             index = Mathf.Min(index + 1, cardArr.Length - 1); // Increment index, but ensure it stays within bounds
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.Q))
         {
             index = Mathf.Max(index - 1, 0); // Decrement index, but ensure it stays within bounds
         }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 245188663090904103}
   - component: {fileID: 742872900675786307}
   - component: {fileID: 1401576211623677684}
+  - component: {fileID: 8288261541046421619}
   m_Layer: 0
   m_Name: Krokodil 1
   m_TagString: Untagged
@@ -101,7 +102,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.26
-  m_Speed: 3.5
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -120,7 +121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8977899019630266090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87bb553eabce3814ba1e4d53d2206b39, type: 3}
   m_Name: 
@@ -198,3 +199,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObj: {fileID: 0}
+--- !u!114 &8288261541046421619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8977899019630266090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0e3eefc067e9648b24bb735e3a3e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdown: 15

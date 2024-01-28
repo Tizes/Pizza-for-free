@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class SpawnObjects : MonoBehaviour
 {
+    public Camera Cam;
     public GameObject[] cubePrefab; // Reference to the cube prefab
     public GameObject objectToDisable;
     public int number;
