@@ -23,7 +23,7 @@ public class car : MonoBehaviour
         // Check if the collider belongs to the object you want to destroy
         if (finish.gameObject.tag == "Finish")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+2);
         }
     }
 

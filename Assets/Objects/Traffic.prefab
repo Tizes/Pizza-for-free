@@ -133,4 +133,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0e3eefc067e9648b24bb735e3a3e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown: 15
+  countdown: 5
